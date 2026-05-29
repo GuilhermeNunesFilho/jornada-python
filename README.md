@@ -25,4 +25,11 @@ Este projeto simula uma demanda real de mercado: um script em Python que automat
 ('Ana', 'Computador', 5000, 500.0)
 ...
 ```
+## 🏫 Automação de Documentos: Gerador de Boletins Escolares
+Um sistema desenvolvido de forma totalmente autônoma para fixar a lógica de iteração em lote, estruturas condicionais compostas e manipulação de coordenadas em PDF.
+
+### Conceitos Praticados:
+- **Lógica Condicional (`if/elif/else`):** Validação matemática para determinar o status do aluno (Aprovado, Recuperação ou Reprovado) com base na média.
+- **Tratamento de Índices:** Isolamento de inteiros dentro de listas aninhadas (`linha[1]` e `linha[2]`) para aplicação de fórmulas de média aritmética.
+- **Formatação de Layout:** Uso estratégico dos eixos cartesianos X e Y para evitar sobreposição de elementos e criar uma identidade visual limpa no documento.
 
