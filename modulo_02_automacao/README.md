@@ -63,5 +63,28 @@ Durante o desenvolvimento das automações deste módulo, apliquei conceitos ess
 
 ---
 
+# 📊 Automação de Planilhas Corporativas com Excel (Módulo 2)
+
+Este repositório armazena as automações desenvolvidas para manipulação, leitura e estilização de planilhas eletrônicas utilizando Python. O objetivo deste módulo é eliminar o trabalho manual de preenchimento de relatórios e tabelas comerciais, transformando dados brutos em arquivos executivos prontos para o negócio.
+
+---
+
+## 🛠️ Recursos Técnicos e Bibliotecas Implementados
+
+*   **Manipulação Avançada de Planilhas (`openpyxl`)**: Geração autônoma de arquivos nativos do Excel (`.xlsx`) sem a necessidade de abrir o software de forma visível.
+*   **Injeção de Dados Dinâmica**: Uso da estrutura estruturada `.append()` para inserção de registros em massa linha por linha de maneira rápida.
+*   **Varredura e Leitura Automatizada**: Desenvolvimento de motores de busca utilizando loops estruturados com `iter_rows(values_only=True)` para extração e processamento de informações armazenadas.
+*   **Estilização Executiva (Design)**: Customização visual de células através das ferramentas `PatternFill` (cores de fundo corporativas em hexadecimal) e `Font` (definição de tipografia, tamanho, cor do texto e aplicação de negrito).
+
+---
+
+## 🚀 Como Executar os Robôs deste Módulo
+
+1. Abra o arquivo `.ipynb` no seu ambiente do **Google Colab**.
+2. Execute as células sequencialmente.
+3. Atualize a barra lateral de arquivos do ambiente para visualizar e fazer o download das planilhas geradas automaticamente:
+   * `Relatorio Concluido.xlsx` (Dados Brutos)
+   * `Relatorio Formatado.xlsx` (Versão Final com Cabeçalho Customizado)
+
 
 
