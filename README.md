@@ -35,6 +35,8 @@ Um sistema desenvolvido de forma totalmente autônoma para fixar a lógica de it
 
 # 🚀 Jornada Python: Automatizando o Mundo Real
 
+[![Abrir no Colab](https://google.com)](https://google.com)
+
 Bem-vindo ao repositório da minha jornada de desenvolvimento em Python! Este espaço foi criado para armazenar projetos práticos focados em **Automação de Processos (RPA)** e **Engenharia de Software**. O portfólio demonstra minha evolução desde os fundamentos lógicos até a criação de robôs prontos para o ambiente corporativo.
 
 ---
@@ -61,9 +63,5 @@ Durante o desenvolvimento das automações deste módulo, apliquei conceitos ess
 
 ---
 
-## 🚀 Como Executar os Projetos
 
-1. Acesse a pasta do módulo desejado.
-2. Abra os arquivos `.ipynb` diretamente no seu ambiente do **Google Colab** ou **Jupyter Notebook**.
-3. Execute as células na ordem cronológica para ver os robôs interagindo e gerando os arquivos de relatório no sistema.
 
