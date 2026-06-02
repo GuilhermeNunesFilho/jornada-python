@@ -86,5 +86,30 @@ Este repositório armazena as automações desenvolvidas para manipulação, lei
    * `Relatorio Concluido.xlsx` (Dados Brutos)
    * `Relatorio Formatado.xlsx` (Versão Final com Cabeçalho Customizado)
 
+# 📊 Automação de Planilhas Corporativas com Excel (Módulo 2)
+
+Este repositório armazena as automações desenvolvidas para manipulação, leitura, estilização e aplicação de cálculos matemáticos em planilhas eletrônicas utilizando Python. O objetivo deste módulo é eliminar o trabalho manual de preenchimento de relatórios, transformando dados brutos em arquivos executivos prontos para o negócio.
+
+[![Abrir no Colab](https://google.com)](https://google.com)
+
+---
+
+## 🛠️ Recursos Técnicos e Bibliotecas Implementados
+
+*   **Manipulação Avançada de Planilhas (`openpyxl`)**: Geração autônoma de arquivos nativos do Excel (`.xlsx`) sem a necessidade de abrir o software de forma visível.
+*   **Injeção de Dados Dinâmica**: Uso da estrutura `.append()` para inserção de registros em massa linha por linha de maneira rápida.
+*   **Fórmulas e Engenharia Financeira Automática**: Uso do robô para injetar fórmulas matemáticas nativas do Excel (`=SUM()`), permitindo o cálculo automatizado de totais de forma dinâmica.
+*   **Varredura e Leitura Automatizada**: Desenvolvimento de motores de busca utilizando loops estruturados com `iter_rows(values_only=True)` para extração e processamento de informações armazenadas.
+*   **Estilização Executiva (Design)**: Customização visual de células através das ferramentas `PatternFill` (cores de fundo corporativas em hexadecimal) e `Font` (definição de tipografia, tamanho, cor do texto e aplicação de negrito).
+
+---
+
+## 🚀 Como Executar os Robôs deste Módulo
+
+1. Clique no botão **Abrir no Colab** no topo desta página.
+2. Execute as células sequencialmente.
+3. Atualize a barra lateral de arquivos do ambiente para visualizar e fazer o download das planilhas geradas automaticamente:
+   * `Relatorio Concluido.xlsx` (Dados Brutos)
+   * `Relatorio_Com_Formulas.xlsx` (Versão Final com cálculos matemáticos injetados)
 
 
